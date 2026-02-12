@@ -1,16 +1,10 @@
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
 
 const WelcomeScreen = ({ onClose }) => {
-  const [isVisible, setIsVisible] = useState(true);
-
   const handleContinue = () => {
-    setIsVisible(false);
     localStorage.setItem('welcomeShown', 'true');
     onClose();
   };
-
-  if (!isVisible) return null;
 
   return (
     <motion.div

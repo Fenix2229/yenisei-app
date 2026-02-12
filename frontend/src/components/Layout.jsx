@@ -1,18 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Navigation from './Navigation';
 import WelcomeScreen from './WelcomeScreen';
 
 const Layout = () => {
   const [showWelcome, setShowWelcome] = useState(false);
-
-  useEffect(() => {
-    // Проверяем, был ли пользователь здесь раньше
-    const welcomed = localStorage.getItem('welcomeShown');
-    if (!welcomed) {
-      setShowWelcome(true);
-    }
-  }, []);
 
   const handleWelcomeClose = () => {
     setShowWelcome(false);
@@ -21,7 +13,7 @@ const Layout = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {showWelcome && <WelcomeScreen onClose={handleWelcomeClose} />}
-      <Navigation />
+      <Navigation onShowWelcome={() => setShowWelcome(true)} />
       <main className="container mx-auto px-4 py-8">
         <Outlet />
       </main>

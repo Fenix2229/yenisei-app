@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Clock, Map, Image, Brain, Waves } from 'lucide-react';
+import { Home, Clock, Map, Image, Brain, Waves, Info } from 'lucide-react';
 
-const Navigation = () => {
+const Navigation = ({ onShowWelcome }) => {
   const location = useLocation();
   
   const navItems = [
@@ -45,6 +45,15 @@ const Navigation = () => {
                 </Link>
               );
             })}
+            
+            {/* Кнопка "О проекте" */}
+            <button
+              onClick={onShowWelcome}
+              className="flex items-center space-x-2 px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
+            >
+              <Info className="w-5 h-5" />
+              <span>О проекте</span>
+            </button>
           </div>
           
           {/* Мобильное меню (упрощенное) */}
