@@ -8,8 +8,8 @@ class Settings(BaseSettings):
     cors_origins: list = [
         "http://localhost:5173", 
         "http://localhost:3000",
-        "https://yenisei-frontend.vercel.app",
-        "https://yenisei-backend.onrender.com"
+        "https://yenisei-backend.onrender.com",
+        "https://g917904o.beget.tech"
     ]
     
     class Config:
