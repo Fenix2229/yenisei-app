@@ -1,8 +1,6 @@
 {
-  "buildCommand": "npm install && npm run build",
+  "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "projectSettings": {
-    "rootDirectory": "frontend"
-  }
+  "root": "frontend"
 }
