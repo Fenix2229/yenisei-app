@@ -1,7 +1,10 @@
 [build]
   base = "frontend"
-  command = "npm run build"
+  command = "npm ci && npx vite build --outDir docs"
   publish = "docs"
+
+[build.environment]
+  NODE_VERSION = "18"
 
 [[redirects]]
   from = "/*"
