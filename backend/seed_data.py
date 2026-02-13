@@ -434,7 +434,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Енисей в Саянах",
             description="Живописный каньон Енисея в горах Саяны. Бирюзовая вода, отвесные скалы и девственная тайга.",
-            image_url="https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+            image_url="https://avatars.mds.yandex.net/i?id=ba4a200c3736ff5ef4675a2388dacc85_l-5221937-images-thumbs&n=13",
             category="nature",
             photographer="Виктор Козлов",
             year_taken=2022,
@@ -445,7 +445,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Закат на Енисее",
             description="Золотой закат окрашивает воды Енисея в багряные тона. Силуэты деревьев на берегу.",
-            image_url="https://images.unsplash.com/photo-1469474968028-56623f02e42e",
+            image_url="https://avatars.mds.yandex.net/i?id=cb4e505e996b622945ef17e14e90a07592c4ab23-5859366-images-thumbs&n=13",
             category="nature",
             photographer="Анна Петрова",
             year_taken=2021,
@@ -456,7 +456,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Ледоход на Енисее",
             description="Мощный ледоход — величественное и опасное явление. Тысячи тонн льда движутся по реке.",
-            image_url="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5",
+            image_url="https://avatars.mds.yandex.net/i?id=dfe64e84e11b540d76240c8cb9b2058f23a87dcd-5869577-images-thumbs&n=13",
             category="nature",
             photographer="Сергей Иванов",
             year_taken=2023,
@@ -467,7 +467,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Красноярские Столбы",
             description="Знаменитые скалы-столбы — символ Красноярского края. Любимое место скалолазов и туристов.",
-            image_url="https://images.unsplash.com/photo-1464207687429-7505649dae38",
+            image_url="https://avatars.mds.yandex.net/i?id=8f12817324aae9531d2949278f394d3e8fd9e499-5339694-images-thumbs&n=13",
             category="nature",
             photographer="Дмитрий Соколов",
             year_taken=2022,
@@ -478,7 +478,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Енисей зимой",
             description="Зимний Енисей в Красноярске. Река не замерзает благодаря сбросу теплой воды с ГЭС.",
-            image_url="https://images.unsplash.com/photo-1491002052546-bf38f186af56",
+            image_url="https://avatars.mds.yandex.net/i?id=18d58671577e911aa7031c5ab3be7b46674a5259-5889153-images-thumbs&n=13",
             category="nature",
             photographer="Елена Морозова",
             year_taken=2020,
@@ -489,7 +489,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Коммунальный мост",
             description="Знаменитый вантовый мост через Енисей в Красноярске. Символ города на 10-рублевой купюре.",
-            image_url="https://images.unsplash.com/photo-1519817914152-22d216bb9170",
+            image_url="https://avatars.mds.yandex.net/i?id=9a4c2ab6a8dd0afe8eca94545598a85a059ff9a0-5233017-images-thumbs&n=13",
             category="architecture",
             photographer="Александр Белов",
             year_taken=2021,
@@ -500,7 +500,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Северное сияние над Енисеем",
             description="Магическое северное сияние танцует над водами Енисея за Полярным кругом.",
-            image_url="https://images.unsplash.com/photo-1531366936337-7c912a4589a7",
+            image_url="https://avatars.mds.yandex.net/i?id=44d750bc5ae86eb38d392756841dfd8dc71f4443-5206243-images-thumbs&n=13",
             category="nature",
             photographer="Николай Арктический",
             year_taken=2023,
@@ -511,7 +511,7 @@ def seed_gallery(db: Session):
         GalleryImage(
             title="Сибирская тайга",
             description="Бескрайняя тайга вдоль берегов Енисея. Одна из последних диких территорий планеты.",
-            image_url="https://images.unsplash.com/photo-1448375240586-882707db888b",
+            image_url="https://avatars.mds.yandex.net/i?id=89573bd618afb04efb9295d07691e770f5faf8a0-5231332-images-thumbs&n=13",
             category="nature",
             photographer="Ольга Лесная",
             year_taken=2022,
