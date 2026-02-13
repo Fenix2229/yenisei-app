@@ -5,6 +5,7 @@ __pycache__/
 .env
 .DS_Store
 frontend/dist/
+frontend/docs/
 .idea/
 .vscode/
 *.log
