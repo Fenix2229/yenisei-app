@@ -1,6 +1,7 @@
 [build]
-  command = "cd frontend && npm run build"
-  publish = "frontend/docs"
+  base = "frontend"
+  command = "npm run build"
+  publish = "docs"
 
 [[redirects]]
   from = "/*"
