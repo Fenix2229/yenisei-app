@@ -8,7 +8,6 @@ class Settings(BaseSettings):
     cors_origins: list = [
         "http://localhost:5173", 
         "http://localhost:3000",
-        "https://yenisei-backend.onrender.com",
         "https://g917904o.beget.tech"
     ]
     
