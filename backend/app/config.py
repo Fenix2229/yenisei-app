@@ -8,9 +8,8 @@ class Settings(BaseSettings):
     cors_origins: list = [
         "http://localhost:5173", 
         "http://localhost:3000",
-        "https://g917904o.beget.tech",
+        "https://fenix2229.github.io",
         "https://istoriayen9a.ru",
-        "http://g917904o.beget.tech",
         "http://istoriayen9a.ru"
     ]
     

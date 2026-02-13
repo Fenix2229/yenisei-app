@@ -21,7 +21,7 @@ class QuizQuestionResponse(BaseModel):
     points: int
     
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 class QuizAnswerRequest(BaseModel):
     question_id: int

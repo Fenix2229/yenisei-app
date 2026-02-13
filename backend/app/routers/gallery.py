@@ -20,7 +20,7 @@ class GalleryImageResponse(BaseModel):
     is_featured: bool
     
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 
 # Получить все изображения галереи

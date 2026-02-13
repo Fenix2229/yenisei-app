@@ -20,7 +20,7 @@ class EpochResponse(EpochBase):
     order_index: int
     
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 class EventInEpoch(BaseModel):
     id: int
@@ -34,7 +34,7 @@ class EventInEpoch(BaseModel):
     importance: int
     
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 class EpochWithEvents(EpochResponse):
     events: List[EventInEpoch]

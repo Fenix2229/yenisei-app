@@ -24,7 +24,7 @@ class GeographicPointResponse(BaseModel):
     color: str
     
     class Config:
-        from_attributes = True
+        orm_mode = True
 
 
 # Получить все географические точки
