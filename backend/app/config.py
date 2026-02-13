@@ -9,8 +9,10 @@ class Settings(BaseSettings):
         "http://localhost:5173", 
         "http://localhost:3000",
         "https://fenix2229.github.io",
+        "https://yenisei.netlify.app",
         "https://istoriayen9a.ru",
-        "http://istoriayen9a.ru"
+        "http://istoriayen9a.ru",
+        "https://www.istoriayen9a.ru"
     ]
     
     class Config:
