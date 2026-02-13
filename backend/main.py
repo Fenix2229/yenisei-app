@@ -1,14 +1,30 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import get_settings
-from app.database import engine, Base
+from app.database import engine, Base, SessionLocal
 from app.routers import epochs, events, geography, gallery, quiz, facts
+from app.models import Epoch
 
 # Получаем настройки
 settings = get_settings()
 
 # Создаем таблицы в базе данных
 Base.metadata.create_all(bind=engine)
+
+# Заполняем базу данных если она пустая
+def init_db():
+    db = SessionLocal()
+    try:
+        # Проверяем есть ли данные
+        if db.query(Epoch).count() == 0:
+            print("🌊 База пустая, запускаем seed_data...")
+            from seed_data import main as seed_main
+            seed_main()
+            print("✅ База заполнена!")
+    finally:
+        db.close()
+
+init_db()
 
 # Инициализируем FastAPI приложение
 app = FastAPI(
@@ -47,6 +63,17 @@ def root():
 @app.get("/health")
 def health_check():
     return {"status": "ok", "message": "API работает"}
+
+# Эндпоинт для пересоздания базы данных
+@app.get("/api/reseed")
+def reseed_database():
+    """Пересоздать базу данных с новыми данными"""
+    try:
+        from seed_data import main as seed_main
+        seed_main()
+        return {"status": "ok", "message": "База данных пересоздана!"}
+    except Exception as e:
+        return {"status": "error", "message": str(e)}
 
 
 # Точка входа для запуска
