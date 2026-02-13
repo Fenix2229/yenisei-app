@@ -9,7 +9,9 @@ class Settings(BaseSettings):
         "http://localhost:5173", 
         "http://localhost:3000",
         "https://g917904o.beget.tech",
-        "https://yenisei-backend.onrender.com"
+        "https://istoriayen9a.ru",
+        "http://g917904o.beget.tech",
+        "http://istoriayen9a.ru"
     ]
     
     class Config:
