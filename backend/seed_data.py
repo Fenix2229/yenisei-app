@@ -268,7 +268,7 @@ def seed_geographic_points(db: Session):
             short_description="Столица Тывы, город у истоков Енисея",
             founding_year=1914,
             population=120000,
-            image_url="https://images.unsplash.com/photo-1519817914152-22d216bb9170",
+            image_url="https://avatars.mds.yandex.net/i?id=b118b770b2d955247cde214742514082dee3077e-4435835-images-thumbs&n=13",
             icon="city",
             color="#EF4444"
         ),
@@ -281,7 +281,7 @@ def seed_geographic_points(db: Session):
             short_description="Столица Хакасии на берегу Енисея",
             founding_year=1931,
             population=180000,
-            image_url="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df",
+            image_url="https://avatars.mds.yandex.net/i?id=822337e8f38ac2b6ec7e767022cbb4efe9ce4f64-16294724-images-thumbs&n=13",
             icon="city",
             color="#EF4444"
         ),
@@ -294,7 +294,7 @@ def seed_geographic_points(db: Session):
             short_description="Миллионный город, сердце Сибири",
             founding_year=1628,
             population=1100000,
-            image_url="https://images.unsplash.com/photo-1513366976276-090a286e6334",
+            image_url="https://avatars.mds.yandex.net/i?id=5be2c3f244f62f7fdd4a72c5aca134ed799ca835-12471023-images-thumbs&n=13",
             icon="city",
             color="#DC2626"
         ),
@@ -307,7 +307,7 @@ def seed_geographic_points(db: Session):
             short_description="Город гидростроителей у Красноярской ГЭС",
             founding_year=1957,
             population=32000,
-            image_url="https://images.unsplash.com/photo-1464207687429-7505649dae38",
+            image_url="https://avatars.mds.yandex.net/i?id=a8fc5c96a44f2a4e78062fe0f5dd1299211f05d0-7082664-images-thumbs&n=13",
             icon="city",
             color="#F97316"
         ),
@@ -320,7 +320,7 @@ def seed_geographic_points(db: Session):
             short_description="Первый русский город на Енисее (1619)",
             founding_year=1619,
             population=18000,
-            image_url="https://images.unsplash.com/photo-1548198138-f26767e0b4f3",
+            image_url="https://avatars.mds.yandex.net/i?id=4b81ab0deed9950d9ea8312d7d8e64f239478202-12639726-images-thumbs&n=13",
             icon="city",
             color="#F59E0B"
         ),
@@ -333,7 +333,7 @@ def seed_geographic_points(db: Session):
             short_description="Центр лесной промышленности",
             founding_year=1975,
             population=62000,
-            image_url="https://images.unsplash.com/photo-1448375240586-882707db888b",
+            image_url="https://avatars.mds.yandex.net/i?id=cb004af784f2569a0faa3a639c385d3e28526a18-4298456-images-thumbs&n=13",
             icon="city",
             color="#F97316"
         ),
@@ -346,7 +346,7 @@ def seed_geographic_points(db: Session):
             short_description="Полярный город-порт на Енисее",
             founding_year=1929,
             population=4500,
-            image_url="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5",
+            image_url="https://avatars.mds.yandex.net/i?id=0e80d31d5d19a00c02e3ca487f5fefc41c0ff7e5-4467478-images-thumbs&n=13",
             icon="city",
             color="#3B82F6"
         ),
@@ -359,7 +359,7 @@ def seed_geographic_points(db: Session):
             short_description="Самый северный порт на Енисее",
             founding_year=1667,
             population=22000,
-            image_url="https://images.unsplash.com/photo-1519904981063-b0cf448d479e",
+            image_url="https://avatars.mds.yandex.net/i?id=2144f8f71723e8de8f34554978cc68919f1e17aa-4739197-images-thumbs&n=13",
             icon="city",
             color="#1E40AF"
         ),
@@ -372,7 +372,7 @@ def seed_geographic_points(db: Session):
             longitude=92.7667,
             description="Уникальный природный парк со скалами-останцами причудливых форм. Высота столбов достигает 100 метров. Популярное место для скалолазания и туризма. Возраст скал — около 600 миллионов лет. Объект всемирного наследия ЮНЕСКО.",
             short_description="Уникальные скалы-столбы высотой до 100 метров",
-            image_url="https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+            image_url="https://avatars.mds.yandex.net/i?id=c33bbeb5798c4baaa8b10a2aa0dc7a024e461141-9860570-images-thumbs&n=13",
             icon="mountain",
             color="#10B981"
         ),
@@ -383,7 +383,7 @@ def seed_geographic_points(db: Session):
             longitude=93.5,
             description="Горная система на юге Сибири. Западный и Восточный Саян окружают верховья Енисея. Высочайшая вершина — пик Грандиозный (2922 м). Царство тайги, альпийских лугов, горных рек и водопадов. Место обитания редких животных: снежного барса, сибирского горного козла.",
             short_description="Величественная горная система верховий Енисея",
-            image_url="https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+            image_url="https://avatars.mds.yandex.net/i?id=c46449740b187bacae04f8e83f661530198322bb-4879412-images-thumbs&n=13",
             icon="mountain",
             color="#059669"
         ),
@@ -394,7 +394,7 @@ def seed_geographic_points(db: Session):
             longitude=93.0,
             description="Одно из самых диких и труднодоступных мест планеты. Базальтовые плато, глубокие каньоны, тысячи озер и водопадов. Объект ЮНЕСКО. Здесь обитает крупнейшая популяция диких северных оленей. Территория практически не тронута человеком.",
             short_description="Дикое плато с каньонами и водопадами",
-            image_url="https://images.unsplash.com/photo-1506905925346-21bda4d32df4",
+            image_url="https://avatars.mds.yandex.net/i?id=31b5b5662d0b6cb105bee77137433599cef73484-16460985-images-thumbs&n=13",
             icon="mountain",
             color="#047857"
         ),
@@ -407,7 +407,7 @@ def seed_geographic_points(db: Session):
             longitude=92.3642,
             description="Одна из крупнейших гидроэлектростанций мира. Высота плотины — 124 метра, мощность — 6000 МВт. Символ индустриальной мощи. Изображена на 10-рублевой купюре. Экскурсии на смотровую площадку открывают панораму могучей плотины и Енисея.",
             short_description="Энергетический гигант на купюре 10 рублей",
-            image_url="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e",
+            image_url="https://avatars.mds.yandex.net/i?id=aeb885efd60d4df72d016e865daf2a2527aed2b5-5278015-images-thumbs&n=13",
             icon="landmark",
             color="#8B5CF6"
         ),
@@ -418,7 +418,7 @@ def seed_geographic_points(db: Session):
             longitude=91.2,
             description="Комплекс древних наскальных рисунков возрастом до 5000 лет. Изображения животных, охотников, шаманов и солярных символов. Один из важнейших памятников наскального искусства Сибири. Расположен на правом берегу Енисея.",
             short_description="Древние петроглифы возрастом 5000 лет",
-            image_url="https://images.unsplash.com/photo-1551847677-dc82d764e1eb",
+            image_url="https://avatars.mds.yandex.net/get-altay/12838938/2a000001911349f0f1e333c15b24f25a9ec0/L",
             icon="landmark",
             color="#A855F7"
         )
