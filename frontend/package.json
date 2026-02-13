@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && Move-Item -Path dist -Destination docs -Force",
+    "build": "vite build --outDir docs",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d docs"
