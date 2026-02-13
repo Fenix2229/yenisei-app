@@ -12,7 +12,9 @@ class Settings(BaseSettings):
         "https://yenisei.netlify.app",
         "https://istoriayen9a.ru",
         "http://istoriayen9a.ru",
-        "https://www.istoriayen9a.ru"
+        "https://www.istoriayen9a.ru",
+        "http://g917904o.beget.tech",
+        "https://g917904o.beget.tech"
     ]
     
     class Config:
