@@ -14,7 +14,11 @@ class Settings(BaseSettings):
         "http://istoriayen9a.ru",
         "https://www.istoriayen9a.ru",
         "http://g917904o.beget.tech",
-        "https://g917904o.beget.tech"
+        "https://g917904o.beget.tech",
+        "http://komandirskie.su",
+        "https://komandirskie.su",
+        "http://www.komandirskie.su",
+        "https://www.komandirskie.su"
     ]
     
     class Config:
